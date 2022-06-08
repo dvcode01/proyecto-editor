@@ -1,0 +1,26 @@
+html{
+	font-size: 62.5%  /* 62.5% == 10px*/;
+	box-sizing: border-box;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+body{
+	font-size: 1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #273746;
+}
+.container{
+	width: 100%;
+	height: 100vh;
+	display: inline-flex;
+}
+.editor, .codigo{
+	width: 100%;
+	margin: 0.8rem;
+	padding: 5px;
+	border: 2px solid #000;
+}
+.editor:focus{
+	outline: 2px solid #ccc;
+}
